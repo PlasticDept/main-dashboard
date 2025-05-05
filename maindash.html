@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Main Dashboard</title>
+  <link rel="stylesheet" href="maindash.css" />
+</head>
+<body>
+  <div class="dashboard-container">
+    <header class="dashboard-header">
+      <h1>📊 Main Dashboard - PlasticDept</h1>
+    </header>
 
+    <div class="dashboard-grid">
+      <div class="dashboard-card" onclick="navigateTo('https://plasticdept.github.io/KPI-overtime/')">
+        <h2>⏱️ Overtime KPI</h2>
+        <p>Lihat dan kelola data lembur tim Anda</p>
+      </div>
+
+      <div class="dashboard-card" onclick="navigateTo('https://plasticdept.github.io/Incoming-schedule/dashin_view.html')">
+        <h2>🚛 Incoming Container</h2>
+        <p>Monitoring container yang masuk (View Only)</p>
+      </div>
+
+      <div class="dashboard-card" onclick="alert('Coming Soon')">
+        <h2>📦 Warehouse Stock</h2>
+        <p>Fitur akan segera tersedia</p>
+      </div>
+    </div>
+
+    <footer class="dashboard-footer">
+      <p>© 2025 PlasticDept. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="maindash.js"></script>
+</body>
+</html>
